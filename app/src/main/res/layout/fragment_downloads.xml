@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagetemplate"
+    tools:context=".Downloads">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp">
+
+        z!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/downloads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="downloads"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@font/belgrano"
+            android:textStyle="bold"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="2dp"/>
+
+        <ImageButton
+            android:id="@+id/SPM"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/sweetpotato"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="2dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recSPM"
+            android:layout_width="127dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="245dp"
+            android:fontFamily="@font/belgrano"
+            android:text="sweet potato pie marshmallow cupcakes"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CCC"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/ccc"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="130dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recCCC"
+            android:layout_width="125dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="245dp"
+            android:fontFamily="@font/belgrano"
+            android:text="crispy chilli chicken with brocolli"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/RGM"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="120dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/rgm"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recRGM"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="245dp"
+            android:fontFamily="@font/belgrano"
+            android:text="roasted garlic and herb mushrooms"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/VC"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="300dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/vegchili"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recVC"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="425dp"
+            android:fontFamily="@font/belgrano"
+            android:text="vegeterian chili"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/WCP"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="300dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/whitechristmas"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recWCP"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="425dp"
+            android:fontFamily="@font/belgrano"
+            android:text="white choc. peppermint cocktail"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/TT"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="300dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/tunatacos"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recTT"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="425dp"
+            android:fontFamily="@font/belgrano"
+            android:text="tuna tacos with sriracha slaw"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CCT"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="470dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/creamychicken"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recCCT"
+            android:layout_width="112dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/belgrano"
+            android:text="creamy chicken tortilla soup"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CHP"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="470dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/stuffedbellpeppers"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recCHP"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/belgrano"
+            android:text="cheese and herb stuffed peppers"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CAV"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="470dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/redwinechicken"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recCAV"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/belgrano"
+            android:text="slow cooker coq au vin"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CB"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="640dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/chinesebeef"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recCB"
+            android:layout_width="111dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="770dp"
+            android:fontFamily="@font/belgrano"
+            android:text="chinese beef"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/LP"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="640dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/stuffedbellpeppers"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recLP"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="770dp"
+            android:fontFamily="@font/belgrano"
+            android:text="cheese and herb stuffed peppers"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/HM"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="640dp"
+            android:onClick="onclickrec"
+            android:src="@drawable/harira"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recHM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="770dp"
+            android:fontFamily="@font/belgrano"
+            android:text="harira"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</ScrollView>

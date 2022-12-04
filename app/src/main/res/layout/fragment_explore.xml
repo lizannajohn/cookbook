@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/pagetemplate">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:id="@+id/searchbar"
+        android:inputType="text"
+        android:background="#FFFFFF"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/videorec150" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/popdem" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/ckbkpicks" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/trending" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="460dp"
+        android:src="@drawable/seasonal" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="460dp"
+        android:src="@drawable/minfoods" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/kidfriendly" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/cuisines" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="780dp"
+        android:src="@drawable/mealcourses" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="780dp"
+        android:src="@drawable/arabicfoods" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="940dp"
+        android:src="@drawable/desserts" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="940dp"
+        android:src="@drawable/healthy" />
+
+
+
+</FrameLayout>
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cookbooktv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/belgrano"
+        android:text="COOKBOOK"
+        android:textColor="#fff"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/taglinetv"
+        android:layout_width="249dp"
+        android:layout_height="92dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/belgrano"
+        android:text="Join today on a culinary journey!"
+        android:textColor="#EFAFAF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/belgrano"
+        android:text="Student Name: Elizabeth John
+        Student ID: 18901231"
+        android:textColor="#EFAFAF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taglinetv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/ourstorybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#23D4D7E1"
+            android:onClick="onclickOS"
+            android:paddingHorizontal="40dp"
+            android:text="our story"
+            android:textAllCaps="false"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/signupbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#23D4D7E1"
+            android:onClick="onclicksignup"
+            android:paddingHorizontal="45dp"
+            android:text="sign up"
+            android:textAllCaps="false"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#23D4D7E1"
+            android:onClick="onclicklogin"
+            android:paddingHorizontal="42dp"
+            android:text="login"
+            android:textAllCaps="false"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagetemplate"
+    tools:context=".SavedRecipes">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Dashboard"
+        android:paddingRight="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/bandb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B &amp; B"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@font/belgrano"
+            android:textStyle="bold"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/VB"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/vegbruschetta"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="10dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recVB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="veg. bruschetta"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:fontFamily="@font/belgrano"
+            android:textStyle="bold"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:id="@+id/JCF"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/jalapenocheesefingers"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="110dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recJCF"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="@font/belgrano"
+            android:text="jalapeno cheese fingers"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/SO"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/spanishomlette"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="210dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recSO"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="@font/belgrano"
+            android:text="spanish omlette"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/SFC"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/spinachandfetacheese"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="310dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recSFC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="@font/belgrano"
+            android:text="spinach and feta cheese crepes"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/healthy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="240dp"
+            android:fontFamily="@font/belgrano"
+            android:text="healthy snacks"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ST"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/somtam"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="10dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recST"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/belgrano"
+            android:text="veg. somtam salad"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/TM"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/texmex"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="110dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recTM"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/belgrano"
+            android:text="texmex burrito"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/PS"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/peachraspnutsmoothie"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="210dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recPS"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/belgrano"
+            android:text="peach, raspberry, nut smoothie"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/AP"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/almondpearls"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="310dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/belgrano"
+            android:text="almond pearls"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lunch &amp; dinner"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@font/belgrano"
+            android:textStyle="bold"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/NP"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/naanpizza"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="10dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recNP"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/belgrano"
+            android:text="naan pizza"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/IBC"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/ibc"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="110dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recIBC"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/belgrano"
+            android:text="indian butter chicken"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/LDC"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/ldc"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="210dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recLDC"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/belgrano"
+            android:text="lemon dijon chicken"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/GCT"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/gct"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="310dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recGCT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/belgrano"
+            android:text="grilled teriyaki chicken"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CL"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="575dp"
+            android:src="@drawable/cl"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="10dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recSC"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="@font/belgrano"
+            android:text="classic lasagna"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/PFF"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="575dp"
+            android:src="@drawable/ratatouille"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="110dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recPFF"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="@font/belgrano"
+            android:text="ratatouille"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/WCC"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="575dp"
+            android:src="@drawable/wcc"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="210dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recWCC"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="@font/belgrano"
+            android:text="white chicken chilli"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/BFC"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="575dp"
+            android:src="@drawable/bfc"
+            android:onClick="onclickrec"
+            android:layout_marginLeft="310dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/recBFC"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="@font/belgrano"
+            android:text="beer battered fish and chips"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+</ScrollView>
